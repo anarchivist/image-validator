@@ -3,7 +3,7 @@
   yum:
     name: epel-release
     state: present
-- name: install required packages
+- name: install useful packages
   yum:
     pkg: "{{item}}"
     state: present
